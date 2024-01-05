@@ -1,3 +1,3 @@
-import signUpUser from "./4-user-promise";
+import signUpUser from './4-user-promise';
 
-console.log(signUpUser("saliha", "Brik"));
+console.log(signUpUser('saliha', 'Brik'));
