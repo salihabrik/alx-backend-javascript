@@ -1,6 +1,4 @@
-function hasValuesFromArray (set , array) {
-    return array.every(function(value) {
-        return set.has(value);
-    });
+function hasValuesFromArray(set, array) {
+  return array.every((value) => set.has(value));
 }
 export default hasValuesFromArray;
