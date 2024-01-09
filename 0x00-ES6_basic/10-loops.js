@@ -1,8 +1,8 @@
 export default function appendToEachArrayValue(array, appendString) {
-  const res = [];
   for (const value of array) {
-    res.append(appendString + value);
+    // Use const instead of var for immutability
+    array[array.indexOf(value)] = appendString + value;
   }
 
-  return res;
+  return array;
 }
