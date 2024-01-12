@@ -73,5 +73,4 @@ const student = new StudentClass('John', 'Doe');
 console.log(student.workOnHomework()); // Output: Currently working
 console.log(student.displayName()); // Output: John
 
-
 console.log(teacher3);
